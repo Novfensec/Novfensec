@@ -54,6 +54,6 @@ A **cross-platform webview** implementation for Kivy, designed to run on Android
 ## 📫 Connect with Me
 
 - **GitHub:** [Novfensec](https://github.com/Novfensec)
-- **Email:** [kartavyashukla@protonmail.com](mailto:kartavyashukla@protonmail.com)
+- **Email:** [novfensec@protonmail.com](mailto:novfensec@protonmail.com)
 
 ### "Passion overcomes obstacles. It's not about the tools you have, it's about how you use them."
