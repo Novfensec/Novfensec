@@ -15,12 +15,32 @@ Here are some ideas to get you started:
 
 # Kartavya Shukla - Novfensec Inc. CEO & Founder
 
-**Hello! I am Kartavya Shukla**, a JEE aspirant, founder, and CEO of [Novfensec Inc.](https://novfensec.vercel.app/). I built **[KvDeveloper](https://github.com/Novfensec/KvDeveloper)** on an **11-year-old Windows 7 32-bit** laptop. Despite technical limitations, I’ve successfully developed several large-scale projects, showcasing my dedication to innovation.
+**Hello! I am Kartavya Shukla**, a JEE aspirant, founder, and CEO of [Novfensec Inc.](https://novfensec.vercel.app/). I built **[KvDeveloper](https://github.com/Novfensec/KvDeveloper)** and **[CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)** on an **11-year-old Windows 7 32-bit** laptop. Despite technical limitations, I’ve successfully developed several large-scale projects, showcasing my dedication to innovation and programming.
+
+## 💼 Notable Projects
+
+### [KvDeveloper](https://github.com/Novfensec/KvDeveloper)
+A developer toolset to simplify and speed up Kivy and KivyMD application development using templates, commands, and more.
+
+### [CarbonKivy](https://github.com/Novfensec/CarbonKivy)
+CarbonKivy is a Python library that integrates IBM’s Carbon Design System with the Kivy framework. It provides a modern, accessible, and user-friendly UI toolkit inspired by Carbon’s design principles, enabling developers to create consistent and visually appealing applications in Kivy.
+
+### [Weather.IO](https://github.com/Novfensec/Weather.IO)
+A weather app built using **OpenWeatherMap API** with Kivy and KivyMD.
+
+## [Buy Me A Coffee](https://buymeacoffee.com/novfensec)
+If you can please buy me a coffee.
+
+<!--
+### [PyNativeWebView for Kivy](https://github.com/Novfensec/PyNativeWebView)
+A **cross-platform webview** implementation for Kivy, designed to run on Android, iOS, Windows, Mac, and Linux.
+-->
 
 ## 🚀 About Me
 
 - **Founder & CEO** of Novfensec Inc.
-- **Developer of KvDeveloper** – A toolset for Kivy and KivyMD developers.
+- **Developer of KvDeveloper** – A CLI to manage Kivy and KivyMD applications.
+- **Developer of CarbonKivy** - A library providing IBM's Carbon Design Components for Kivy.
 - Aspiring **JEE Candidate** with a passion for **Mathematics**.
 - Strong interest in **cross-platform development**, Python, and open-source contributions.
 
@@ -31,19 +51,6 @@ Here are some ideas to get you started:
 - **Web Development:** JavaScript, Django, GitHub Pages, Jekyll
 - **Tools:** Git, GitHub Actions, Buildozer, Cython
 - **Other Technologies:** Markdown, Jupyter Notebooks
-
-## 💼 Notable Projects
-
-### [KvDeveloper](https://github.com/Novfensec/KvDeveloper)
-A developer toolset to simplify and speed up Kivy and KivyMD application development using templates, commands, and more.
-
-### [Weather.IO](https://github.com/Novfensec/Weather.IO)
-A weather app built using **OpenWeatherMap API** with Kivy and KivyMD.
-
-<!--
-### [PyNativeWebView for Kivy](https://github.com/Novfensec/PyNativeWebView)
-A **cross-platform webview** implementation for Kivy, designed to run on Android, iOS, Windows, Mac, and Linux.
--->
 
 ## 📊 GitHub Stats
 
