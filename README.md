@@ -28,7 +28,7 @@ CarbonKivy is a Python library that integrates IBM’s Carbon Design System with
 ### [Weather.IO](https://github.com/Novfensec/Weather.IO)
 A weather app built using **OpenWeatherMap API** with Kivy and KivyMD.
 
-## [Github Sponsors](https://github.com/sponsor/Novfensec)
+## [Github Sponsors](https://github.com/sponsors/Novfensec)
 If you want to please sponsor me.
 
 <!--
