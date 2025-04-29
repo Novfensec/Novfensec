@@ -41,7 +41,6 @@ A **cross-platform webview** implementation for Kivy, designed to run on Android
 - **Founder & CEO** of Novfensec Inc.
 - **Developer of KvDeveloper** – A CLI to manage Kivy and KivyMD applications.
 - **Developer of CarbonKivy** - A library providing IBM's Carbon Design Components for Kivy.
-- Aspiring **JEE Candidate** with a passion for **Mathematics**.
 - Strong interest in **cross-platform development**, Python, and open-source contributions.
 
 ## 🛠️ Skills & Technologies
@@ -60,7 +59,9 @@ A **cross-platform webview** implementation for Kivy, designed to run on Android
 
 ## 📫 Connect with Me
 
-- **GitHub:** [Novfensec](https://github.com/Novfensec)
+- **Instagram:** [Novfensec](https://instagram.com/Novfensec)
+- **Youtube:** [Novfensec Inc.](https://youtube.com/@NovfensecInc)
+- **Discord:** [Novfensec](https://discord.gg/DeJrbYTB)
 - **Email:** [novfensec@protonmail.com](mailto:novfensec@protonmail.com)
 
 ### "Passion overcomes obstacles. It's not about the tools you have, it's about how you use them."
