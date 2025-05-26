@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 ### [KvDeveloper](https://github.com/Novfensec/KvDeveloper)
 A developer toolset to simplify and speed up Kivy and KivyMD application development using templates, commands, and more.
 
-### [CarbonKivy](https://github.com/Novfensec/CarbonKivy)
+### [CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)
 CarbonKivy is a Python library that integrates IBM’s Carbon Design System with the Kivy framework. It provides a modern, accessible, and user-friendly UI toolkit inspired by Carbon’s design principles, enabling developers to create consistent and visually appealing applications in Kivy.
 
 ### [Weather.IO](https://github.com/Novfensec/Weather.IO)
