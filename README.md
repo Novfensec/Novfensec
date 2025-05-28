@@ -29,8 +29,6 @@ CarbonKivy is a Python library that integrates IBM’s Carbon Design System with
 A weather app built using **OpenWeatherMap API** with Kivy and KivyMD.
 
 ## Financial Support
-[![Support on Patreon](https://img.shields.io/badge/Support%20on-Patreon-ff424d?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/novfensec)
-[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor%20on-GitHub-181717?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/novfensec)
 [![Donate via PayPal](https://img.shields.io/badge/Donate%20via-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/KARTAVYASHUKLA)
 
 <!--
