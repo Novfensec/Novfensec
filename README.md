@@ -33,6 +33,8 @@ A weather app built using **OpenWeatherMap API** with Kivy and KivyMD.
 ## Financial Support
 [![Donate via PayPal](https://img.shields.io/badge/Donate%20via-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/KARTAVYASHUKLA)
 
+[![OpenCollective](https://img.shields.io/opencollective/all/Novfensec?style=for-the-badge&label=Support%20Novfensec&logo=opencollective&color=blue)](https://opencollective.com/Novfensec)
+
 <!--
 ### [PyNativeWebView for Kivy](https://github.com/Novfensec/PyNativeWebView)
 A **cross-platform webview** implementation for Kivy, designed to run on Android, iOS, Windows, Mac, and Linux.
