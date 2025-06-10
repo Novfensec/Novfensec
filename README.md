@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 [Advertisement](https://otieu.com/4/9428981)
 
-**Hello! I am Kartavya Shukla**, a passionate programmer since age of 16, founder, and CEO of [Novfensec Inc.](https://novfensec.vercel.app/). I built **[KvDeveloper](https://github.com/Novfensec/KvDeveloper)** and **[CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)** on a **Windows 7 32-bit** laptop from the year **2013**. Despite technical limitations, I’ve successfully developed several large-scale projects, showcasing my dedication to innovation and programming.
+**Hello! I am Kartavya Shukla**, a passionate programmer since age of 16, founder, and CEO of [Novfensec Inc.](https://novfensec.vercel.app/). I built **[KvDeveloper](https://github.com/Novfensec/KvDeveloper)** and **[CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)**. Despite technical limitations, I’ve successfully developed several large-scale projects, showcasing my dedication to innovation and programming.
 
 ## 💼 Notable Projects
 
