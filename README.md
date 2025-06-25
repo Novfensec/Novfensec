@@ -15,8 +15,6 @@ Here are some ideas to get you started:
 
 # Kartavya Shukla - Novfensec Inc. CEO & Founder
 
-[Advertisement](https://otieu.com/4/9428981)
-
 **Hello! I am Kartavya Shukla**, a passionate programmer since age of 16, founder, and CEO of [Novfensec Inc.](https://novfensec.vercel.app/). I built **[KvDeveloper](https://github.com/Novfensec/KvDeveloper)** and **[CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)**. Despite technical limitations, I’ve successfully developed several large-scale projects, showcasing my dedication to innovation and programming.
 
 ## 💼 Notable Projects
@@ -34,6 +32,8 @@ A weather app built using **OpenWeatherMap API** with Kivy and KivyMD.
 [![Donate via PayPal](https://img.shields.io/badge/Donate%20via-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/KARTAVYASHUKLA)
 
 [![OpenCollective](https://img.shields.io/opencollective/all/Novfensec?style=for-the-badge&label=Support%20Novfensec&logo=opencollective&color=blue)](https://opencollective.com/Novfensec)
+
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/Novfensec?style=for-the-badge&label=Sponsor%20Novfensec&logo=github&color=ff69b4)](https://github.com/sponsors/Novfensec)
 
 <!--
 ### [PyNativeWebView for Kivy](https://github.com/Novfensec/PyNativeWebView)
