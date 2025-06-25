@@ -33,7 +33,7 @@ A weather app built using **OpenWeatherMap API** with Kivy and KivyMD.
 
 [![OpenCollective](https://img.shields.io/opencollective/all/Novfensec?style=for-the-badge&label=Support%20Novfensec&logo=opencollective&color=blue)](https://opencollective.com/Novfensec)
 
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/Novfensec?style=for-the-badge&label=Sponsor%20Novfensec&logo=github&color=ff69b4)](https://github.com/sponsors/Novfensec)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/Novfensec?style=for-the-badge&label=Sponsor%20Novfensec&logo=github&color=000000)](https://github.com/sponsors/Novfensec)
 
 <!--
 ### [PyNativeWebView for Kivy](https://github.com/Novfensec/PyNativeWebView)
