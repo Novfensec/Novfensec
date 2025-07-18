@@ -19,6 +19,11 @@ Here are some ideas to get you started:
 
 <!-- GitAds-Verify: MUCSXOF8EQWEAL7EG5ZQVY8PGYJIHZ63 -->
 
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=novfensec/novfensec@github)](https://gitads.dev/v1/ad-track?source=novfensec/novfensec@github)
+
+
+
 ## 💼 Notable Projects
 
 ### [KvDeveloper](https://github.com/Novfensec/KvDeveloper)
