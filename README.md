@@ -17,6 +17,8 @@ Here are some ideas to get you started:
 
 **Hello! I am Kartavya Shukla**, a passionate programmer since age of 16, founder, and CEO of [Novfensec Inc.](https://novfensec.vercel.app/). I built **[KvDeveloper](https://github.com/Novfensec/KvDeveloper)** and **[CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)**. Despite technical limitations, I’ve successfully developed several large-scale projects, showcasing my dedication to innovation and programming.
 
+<!-- GitAds-Verify: MUCSXOF8EQWEAL7EG5ZQVY8PGYJIHZ63 -->
+
 ## 💼 Notable Projects
 
 ### [KvDeveloper](https://github.com/Novfensec/KvDeveloper)
