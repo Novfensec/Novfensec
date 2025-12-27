@@ -66,9 +66,9 @@ A **cross-platform webview** implementation for Kivy, designed to run on Android
 
 ## 📊 GitHub Stats
 
-![Kartavya's GitHub stats](https://github-readme-stats.vercel.app/api?username=Novfensec&show_icons=true&theme=radical)
+![Kartavya's Github Stats](https://github-readme-stats.vercel.app/api?username=Novfensec&show_icons=true&theme=transparent)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Novfensec&theme=radical)](https://github.com/Novfensec)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Novfensec&layout=compact&theme=tokyonight)
 
 ## 📫 Connect with Me
 
