@@ -49,7 +49,7 @@ A **cross-platform webview** implementation for Kivy, designed to run on Android
 ## 🚀 About Me
 
 - **Founder & CEO** of Novfensec Inc.
-- **Developer of KvDeveloper** – A CLI to manage Kivy and KivyMD applications.
+- **Developer of pybindcef** – High-performance Python bindings for Chromium Embedded Framework (CEF)
 - **Developer of CarbonKivy** - A library providing IBM's Carbon Design Components for Kivy.
 - Strong interest in **cross-platform development**, Python, and open-source contributions.
 
