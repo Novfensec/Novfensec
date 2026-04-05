@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 
 # Kartavya Shukla - Novfensec Inc. CEO & Founder
 
-**Hello! I am Kartavya Shukla**, a passionate programmer since age of 16, founder, and CEO of [Novfensec Inc.](https://novfensec.vercel.app/). I built **[KvDeveloper](https://github.com/Novfensec/KvDeveloper)** and **[CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)**. Despite technical limitations, I’ve successfully developed several large-scale projects, showcasing my dedication to innovation and programming.
+**Hello! I am Kartavya Shukla**, a passionate programmer since age of 16, founder, and CEO of [Novfensec Inc.](https://novfensec.vercel.app/). I built **[pybindcef](https://github.com/Novfensec/pybindcef)** and **[CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)**. Despite technical limitations, I’ve successfully developed several large-scale projects, showcasing my dedication to innovation and programming.
 
 <!-- GitAds-Verify: MUCSXOF8EQWEAL7EG5ZQVY8PGYJIHZ63 -->
 
@@ -26,14 +26,11 @@ Here are some ideas to get you started:
 
 ## 💼 Notable Projects
 
-### [KvDeveloper](https://github.com/Novfensec/KvDeveloper)
-A developer toolset to simplify and speed up Kivy and KivyMD application development using templates, commands, and more.
+### [pybindcef](https://github.com/Novfensec/pybindcef)
+High-performance python bindings for Chromium Embedded Framework (CEF)
 
 ### [CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)
 CarbonKivy is a Python library that integrates IBM’s Carbon Design System with the Kivy framework. It provides a modern, accessible, and user-friendly UI toolkit inspired by Carbon’s design principles, enabling developers to create consistent and visually appealing applications in Kivy.
-
-### [Weather.IO](https://github.com/Novfensec/Weather.IO)
-A weather app built using **OpenWeatherMap API** with Kivy and KivyMD.
 
 ## Financial Support
 [![Donate via](https://img.shields.io/badge/Donate%20via-Wise-9FE870?style=for-the-badge&logo=wise&labelColor=163300)](https://wise.com/pay/business/kartavyashukla)
