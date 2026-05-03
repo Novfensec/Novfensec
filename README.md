@@ -32,6 +32,10 @@ High-performance python bindings for Chromium Embedded Framework (CEF)
 ### [CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)
 CarbonKivy is a Python library that integrates IBM’s Carbon Design System with the Kivy framework. It provides a modern, accessible, and user-friendly UI toolkit inspired by Carbon’s design principles, enabling developers to create consistent and visually appealing applications in Kivy.
 
+### [videonative](https://github.com/Novfensec/VideoNative)
+High-performance video rendering in Python powered by C++, FFmpeg, and miniaudio.
+VideoNative is a lightweight, low-level Python extension designed for efficient video and audio decoding. By leveraging native C++ bindings, it bridges high-performance media frameworks directly into Python applications.
+
 ## Financial Support
 [![Donate via](https://img.shields.io/badge/Donate%20via-Wise-9FE870?style=for-the-badge&logo=wise&labelColor=163300)](https://wise.com/pay/business/kartavyashukla)
 
@@ -40,11 +44,6 @@ CarbonKivy is a Python library that integrates IBM’s Carbon Design System with
 [![OpenCollective](https://img.shields.io/opencollective/all/Novfensec?style=for-the-badge&label=Support%20Novfensec&logo=opencollective&color=blue)](https://opencollective.com/Novfensec)
 
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/Novfensec?style=for-the-badge&label=Sponsor%20Novfensec&logo=github&color=000000)](https://github.com/sponsors/Novfensec)
-
-<!--
-### [PyNativeWebView for Kivy](https://github.com/Novfensec/PyNativeWebView)
-A **cross-platform webview** implementation for Kivy, designed to run on Android, iOS, Windows, Mac, and Linux.
--->
 
 ## 🚀 About Me
 
