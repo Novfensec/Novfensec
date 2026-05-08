@@ -13,9 +13,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Kartavya Shukla - Novfensec Inc. CEO & Founder
+# Kartavya Shukla - Novfensec
 
-**Hello! I am Kartavya Shukla**, a passionate programmer since age of 16, founder, and CEO of [Novfensec Inc.](https://novfensec.vercel.app/). I built **[pybindcef](https://github.com/Novfensec/pybindcef)** and **[CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)**. Despite technical limitations, I’ve successfully developed several large-scale projects, showcasing my dedication to innovation and programming.
+**Hello! I am Kartavya Shukla**, a passionate programmer since age of 16, [Novfensec Inc.](https://novfensec.vercel.app/). I built **[pybindcef](https://github.com/Novfensec/pybindcef)** and **[CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)**. Despite technical limitations, I’ve successfully developed several large-scale projects, showcasing my dedication to innovation and programming.
 
 <!-- GitAds-Verify: MUCSXOF8EQWEAL7EG5ZQVY8PGYJIHZ63 -->
 
