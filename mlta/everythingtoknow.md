@@ -123,6 +123,8 @@ This is a **very commonly tested** concept.
 
 Visual intuition (common exam diagram): Plotting model error vs model complexity — training error keeps decreasing as complexity increases, but test error decreases then increases again after a point (that turning point is the optimal complexity).
 
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/9501b5da-4991-474e-ad9f-9df340fb2857" />
+
 ## Evaluation Measures
 
 **R-squared (R²) / Coefficient of Determination**
