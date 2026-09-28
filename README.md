@@ -17,33 +17,39 @@ Here are some ideas to get you started:
 
 **Hello! I am Kartavya Shukla**, a passionate programmer since age of 14, [Novfensec Inc.](https://novfensec.vercel.app/). I built **[pybindcef](https://github.com/Novfensec/pybindcef)** and **[CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)**. Despite technical limitations, I’ve successfully developed several large-scale projects, showcasing my dedication to innovation and programming.
 
-<!-- GitAds-Verify: MUCSXOF8EQWEAL7EG5ZQVY8PGYJIHZ63 -->
-
 ## GitAds Sponsored
 [![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=novfensec/novfensec@github)](https://gitads.dev/v1/ad-track?source=novfensec/novfensec@github)
 
-
-
 ## 💼 Notable Projects
 
+### [nth](https://github.com/Novfensec/nth)
+nth is an open-source UEFI bootloader and the reference implementation for the nth boot protocol. It provides a built-in graphical boot manager and supports booting both 64-bit ELF kernels and standard Linux EFI stub kernels.
+
 ### [pybindcef](https://github.com/Novfensec/pybindcef)
-High-performance python bindings for Chromium Embedded Framework (CEF)
+High-performance python bindings for Chromium Embedded Framework (CEF).
 
 ### [CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)
 CarbonKivy is a Python library that integrates IBM’s Carbon Design System with the Kivy framework. It provides a modern, accessible, and user-friendly UI toolkit inspired by Carbon’s design principles, enabling developers to create consistent and visually appealing applications in Kivy.
 
+### [NfsBrowser-Desktop](https://github.com/Novfensec/NfsBrowser-Desktop)
+NfsBrowser is a modern web browser built with Python, integrating Kivy, CarbonKivy, and the Chromium Embedded Framework (CEF) via pybindcef.
+
+### [NfsBrowser](https://github.com/Novfensec/NfsBrowser)
+NfsBrowser is a light-weight browser application in Python using Kivy, CarbonKivy and NfsWebview.
+
 ### [videonative](https://github.com/Novfensec/VideoNative)
-High-performance video rendering in Python powered by C++, FFmpeg, and miniaudio.
+Video rendering in Python powered by C++, FFmpeg, and miniaudio.
 VideoNative is a lightweight, low-level Python extension designed for efficient video and audio decoding. By leveraging native C++ bindings, it bridges high-performance media frameworks directly into Python applications.
 
 ## Financial Support
-[![Donate via](https://img.shields.io/badge/Donate%20via-Wise-9FE870?style=for-the-badge&logo=wise&labelColor=163300)](https://wise.com/pay/business/kartavyashukla)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/Novfensec?style=for-the-badge&label=Sponsor%20Novfensec&logo=github&color=000000)](https://github.com/sponsors/Novfensec)
 
-[![Donate via PayPal](https://img.shields.io/badge/Donate%20via-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/KARTAVYASHUKLA)
+[![Support via Wise](https://img.shields.io/badge/Support%20via-Wise-9FE870?style=for-the-badge&logo=wise&labelColor=163300)](https://wise.com/pay/business/kartavyashukla)
+
+[![Support via PayPal](https://img.shields.io/badge/Support%20via-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/KARTAVYASHUKLA)
 
 [![OpenCollective](https://img.shields.io/opencollective/all/Novfensec?style=for-the-badge&label=Support%20Novfensec&logo=opencollective&color=blue)](https://opencollective.com/Novfensec)
 
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/Novfensec?style=for-the-badge&label=Sponsor%20Novfensec&logo=github&color=000000)](https://github.com/sponsors/Novfensec)
 
 ## 🚀 About Me
 
