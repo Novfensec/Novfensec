@@ -10,6 +10,20 @@ Hello! I am Kartavya Shukla, a passionate software engineer specializing in syst
 
 I am deeply interested in operating systems, kernel architecture, and bridging the gap between native C/C++ performance and Python simplicity.
 
+<p align="left">
+  <a href="https://github.com/sponsors/Novfensec"><img src="https://img.shields.io/github/sponsors/Novfensec?style=for-the-badge&label=Sponsor%20Novfensec&logo=github&color=000000" alt="GitHub Sponsors"></a>
+  <a href="https://wise.com/pay/business/kartavyashukla"><img src="https://img.shields.io/badge/Support%20via-Wise-9FE870?style=for-the-badge&logo=wise&labelColor=163300" alt="Support via Wise"></a>
+  <a href="https://www.paypal.me/KARTAVYASHUKLA"><img src="https://img.shields.io/badge/Support%20via-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Support via PayPal"></a>
+</p>
+
+<!-- GitAds Sponsored -->
+<div align="center">
+  <a href="https://gitads.dev/v1/ad-track?source=novfensec/novfensec@github">
+    <img src="https://gitads.dev/v1/ad-serve?source=novfensec/novfensec@github" alt="Sponsored by GitAds">
+  </a>
+</div>
+
+
 ## Notable Engineering Projects
 
 ### [nth](https://github.com/Novfensec/nth)
@@ -59,16 +73,3 @@ I am deeply interested in operating systems, kernel architecture, and bridging t
 ---
 
 ### *"Passion overcomes obstacles. It's not about the tools you have, it's about how you use them."*
-
-<p align="left">
-  <a href="https://github.com/sponsors/Novfensec"><img src="https://img.shields.io/github/sponsors/Novfensec?style=for-the-badge&label=Sponsor%20Novfensec&logo=github&color=000000" alt="GitHub Sponsors"></a>
-  <a href="https://wise.com/pay/business/kartavyashukla"><img src="https://img.shields.io/badge/Support%20via-Wise-9FE870?style=for-the-badge&logo=wise&labelColor=163300" alt="Support via Wise"></a>
-  <a href="https://www.paypal.me/KARTAVYASHUKLA"><img src="https://img.shields.io/badge/Support%20via-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Support via PayPal"></a>
-</p>
-
-<!-- GitAds Sponsored -->
-<div align="center">
-  <a href="https://gitads.dev/v1/ad-track?source=novfensec/novfensec@github">
-    <img src="https://gitads.dev/v1/ad-serve?source=novfensec/novfensec@github" alt="Sponsored by GitAds">
-  </a>
-</div>
