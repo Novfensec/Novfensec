@@ -8,13 +8,13 @@
 
 Hello! I am Kartavya Shukla, a passionate software engineer specializing in systems programming, cross-platform development, and Python/C++ integration. I build low-level tools, high-performance bindings, and UI frameworks, operating under the moniker [Novfensec](https://novfensec.vercel.app/).
 
-I am deeply interested in operating systems, kernel architecture, and bridging the gap between native C++ performance and Python simplicity.
+I am deeply interested in operating systems, kernel architecture, and bridging the gap between native C/C++ performance and Python simplicity.
 
 ## Notable Engineering Projects
 
 ### [nth](https://github.com/Novfensec/nth)
 **UEFI Bootloader & Protocol Reference**
-*   **Tech Stack:** C, x86 Assembly, UEFI
+*   **Tech Stack:** C, UEFI
 *   An open-source UEFI bootloader and the reference implementation for the nth boot protocol.
 *   **Features:** Engineered a built-in graphical boot manager capable of booting both 64-bit ELF kernels and standard Linux EFI stub kernels.
 
@@ -26,7 +26,7 @@ I am deeply interested in operating systems, kernel architecture, and bridging t
 ### [VideoNative](https://github.com/Novfensec/VideoNative)
 **Low-Level Python Media Extension**
 *   **Tech Stack:** C++, Python, FFmpeg, miniaudio
-*   A lightweight, low-level Python extension designed for efficient, hardware-accelerated video and audio decoding. 
+*   A lightweight, low-level Python extension designed for efficient, hardware-accelerated video and audio decoding.
 *   **Impact:** Bridges high-performance native media frameworks directly into Python, bypassing the performance bottlenecks of standard Python libraries.
 
 ### [CarbonKivy](https://github.com/CarbonKivy/CarbonKivy)
@@ -36,7 +36,7 @@ I am deeply interested in operating systems, kernel architecture, and bridging t
 
 ### [NfsBrowser-Desktop](https://github.com/Novfensec/NfsBrowser-Desktop) & [NfsBrowser](https://github.com/Novfensec/NfsBrowser)
 **Python-Native Web Browsers**
-*   **Tech Stack:** Python, pybindcef, CarbonKivy
+*   **Tech Stack:** Python, pybindcef, CarbonKivy, NfsWebview
 *   Built modern web browsers entirely in Python. NfsBrowser-Desktop leverages my `pybindcef` library for the underlying engine and `CarbonKivy` for the UI, proving the real-world viability of my custom dependencies.
 
 ## Core Competencies
