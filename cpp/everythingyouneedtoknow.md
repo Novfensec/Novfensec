@@ -4,7 +4,7 @@
 
 ### 1. Evolution of Programming Paradigms
 
-```
+```text
 Monolithic Programming (Assembly / BASIC)
        │
        ▼
@@ -15,7 +15,6 @@ Structured Programming (C / Pascal)
        │
        ▼
 Object-Oriented Programming (C++ / Java / Smalltalk)
-
 ```
 
 * **Monolithic Paradigm:** The program consists of a single linear block of code with global data. It relies on unconditional jumps (`goto`), which creates an unstructured flow that becomes difficult to maintain as code size grows.
@@ -26,130 +25,48 @@ Object-Oriented Programming (C++ / Java / Smalltalk)
 ### 2. Difference between C and C++
 
 | Feature | C | C++ |
-| --- | --- | --- |
-| **Programming Paradigm** | Procedural
-
- | Multi-paradigm (Procedural + Object-Oriented)
-
- |
-| **Focus** | Functions and procedures
-
- | Objects and data
-
- |
-| **Data Hiding** | Not supported
-
- | Supported via classes (Encapsulation)
-
- |
-| **Inheritance** | Not available
-
- | Fully supported
-
- |
-| **Polymorphism** | Limited (macros/emulation)
-
- | Full compile-time and runtime polymorphism
-
- |
-| **Memory Management** | `malloc()` / `free()`<br> | `new` / `delete` + RAII
-
- |
-| **Standard Library** | Standard C Library
-
- | Standard Template Library (STL) + C Library
-
- |
-| **Input/Output** | `printf` / `scanf`<br> | `cin` / `cout` (streams) + `printf`/`scanf`<br> |
-| **Default Arguments** | Not supported
-
- | Supported
-
- |
-| **Reference Variables** | Not available
-
- | Available
-
- |
-| **Exception Handling** | Not available
-
- | Native `try` / `catch` / `throw`<br> |
-| **Templates** | Not available
-
- | Fully supported
-
- |
+| :--- | :--- | :--- |
+| **Programming Paradigm** | Procedural | Multi-paradigm (Procedural + Object-Oriented) |
+| **Focus** | Functions and procedures | Objects and data |
+| **Data Hiding** | Not supported | Supported via classes (Encapsulation) |
+| **Inheritance** | Not available | Fully supported |
+| **Polymorphism** | Limited (macros/emulation) | Full compile-time and runtime polymorphism |
+| **Memory Management** | `malloc()` / `free()` | `new` / `delete` + RAII |
+| **Standard Library** | Standard C Library | Standard Template Library (STL) + C Library |
+| **Input/Output** | `printf` / `scanf` | `cin` / `cout` (streams) + `printf` / `scanf` |
+| **Default Arguments** | Not supported | Supported |
+| **Reference Variables** | Not available | Available |
+| **Exception Handling** | Not available | Native `try` / `catch` / `throw` |
+| **Templates** | Not available | Fully supported |
 
 **Key Takeaway**: C++ is a superset of C with powerful object-oriented features, better type safety, and a richer standard library.
 
 ### 3. Procedure-Oriented vs Object-Oriented Approach
 
 **Procedure-Oriented Programming (POP)**
-
 * Focuses on **functions** (procedures).
-
-
 * Data is global or passed around freely.
-
-
 * Follows top-down design.
-
-
 * Example languages: C, Pascal, FORTRAN.
 
-
-
 **Object-Oriented Programming (OOP)**
-
 * Focuses on **objects** that contain both data and methods.
-
-
 * Data is hidden and protected from unauthorized access.
-
-
 * Follows bottom-up design.
-
-
 * Encourages code reuse through inheritance and polymorphism.
 
-
-
-| Aspect | Procedure-Oriented
-
- | Object-Oriented
-
- |
-| --- | --- | --- |
-| **Basic Unit** | Function
-
- | Object / Class
-
- |
-| **Approach** | Top-down
-
- | Bottom-up
-
- |
-| **Data Security** | Low (data moves freely)
-
- | High (Encapsulation & Access Specifiers)
-
- |
-| **Code Reusability** | Limited
-
- | High (Inheritance, Polymorphism)
-
- |
-| **Real-world Mapping** | Poor
-
- | Excellent
-
- |
+| Aspect | Procedure-Oriented | Object-Oriented |
+| :--- | :--- | :--- |
+| **Basic Unit** | Function | Object / Class |
+| **Approach** | Top-down | Bottom-up |
+| **Data Security** | Low (data moves freely) | High (Encapsulation & Access Specifiers) |
+| **Code Reusability** | Limited | High (Inheritance, Polymorphism) |
+| **Real-world Mapping** | Poor | Excellent |
 
 ### 4. Object-Based vs. Object-Oriented Languages
 
 | Criterion | Object-Based Language | Object-Oriented Language |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | **Encapsulation & Abstraction** | Supported | Supported |
 | **Inheritance** | **Not Supported** | Fully Supported |
 | **Dynamic Binding (Runtime Polymorphism)** | **Not Supported** | Fully Supported |
@@ -162,16 +79,9 @@ Object-Oriented Programming (C++ / Java / Smalltalk)
 #### Objects
 
 An **object** is an instance of a class and a real-world entity with:
-
 * **State** (attributes / data members)
-
-
 * **Behaviour** (methods / member functions)
-
-
 * **Identity** (unique memory address)
-
-
 
 ```cpp
 class Car {
@@ -190,7 +100,6 @@ int main() {
     myCar.speed = 0;
     myCar.accelerate();
 }
-
 ```
 
 #### Classes
@@ -214,7 +123,6 @@ public:
         std::cout << "Name: " << name << ", Roll: " << rollNo << std::endl;
     }
 };
-
 ```
 
 #### Principles of OOP
@@ -233,7 +141,6 @@ public:
     void withdraw(double amount);
     double getBalance();
 };
-
 ```
 
 **2. Encapsulation**
@@ -257,7 +164,6 @@ public:
         return length * breadth;
     }
 };
-
 ```
 
 **3. Inheritance**
@@ -274,19 +180,13 @@ class Dog : public Animal {         // Dog inherits from Animal
 public:
     void bark() { std::cout << "Barking..." << std::endl; }
 };
-
 ```
 
 **4. Polymorphism**
 
 "One name, many forms." The ability of a message, function call, or operator to execute differently based on the object invoking it.
-
 * **Compile-time**: Function overloading, Operator overloading
-
-
 * **Runtime**: Virtual functions
-
-
 
 **5. Dynamic Binding**
 
@@ -298,38 +198,19 @@ The communication mechanism between objects in a running system: an object invok
 
 ```cpp
 obj1.processData(obj2); // obj1 sends a message to obj2
-
 ```
 
 ### 6. Characteristics of Object-Oriented Languages
 
 1. **Everything is an object** (or can be modeled as one)
-
-
 2. **Classes** act as blueprints for instances
-
-
 3. **Encapsulation** guarantees data protection
-
-
 4. **Inheritance** delivers clean code reuse
-
-
 5. **Polymorphism** supports flexible program behaviors
-
-
 6. **Dynamic binding** resolves operations at runtime
-
-
 7. **Message passing** facilitates object communication
-
-
 8. **Extensibility** allows modification without altering tested legacy classes
-
-
 9. **Modularity** allows independent component development and testing
-
-
 
 ### 7. Benefits and Real-World Applications of OOP
 
@@ -362,22 +243,17 @@ An ADT is a theoretical model for data structures where the type is defined enti
 ### 2. Objects, Classes, Attributes, and Methods
 
 * **Attributes:** Variables declared within a class representing its state (data members).
-
-
 * **Methods:** Functions declared within a class representing its behavior (member functions).
-
-
 
 ```cpp
 class Circle {
 private:
-    double radius;                               // Attribute[cite: 1]
+    double radius;                                      // Attribute
 
 public:
-    void setRadius(double r) { radius = r; }      // Method[cite: 1]
-    double area() { return 3.14159 * radius * radius; } // Method[cite: 1]
+    void setRadius(double r) { radius = r; }             // Method
+    double area() { return 3.14159 * radius * radius; }  // Method
 };
-
 ```
 
 ### 3. Class vs. Structure in C++
@@ -390,7 +266,6 @@ struct StructDemo {
 class ClassDemo {
     int x; // private by default
 };
-
 ```
 
 * **Default Member Access:** Members of a `class` are `private` by default; members of a `struct` are `public` by default.
@@ -401,39 +276,26 @@ class ClassDemo {
 ```cpp
 class ClassName {
 private:
-    // private members: accessible only inside this class[cite: 1]
+    // private members: accessible only inside this class
 
 protected:
-    // protected members: accessible inside this class and derived classes[cite: 1]
+    // protected members: accessible inside this class and derived classes
 
 public:
-    // public members: accessible anywhere[cite: 1]
+    // public members: accessible anywhere
 
-    ClassName();  // Constructor[cite: 1]
-    ~ClassName(); // Destructor[cite: 1]
+    ClassName();  // Constructor
+    ~ClassName(); // Destructor
 };
-
 ```
 
 ### 5. Local Class vs. Global Class
 
 * **Global Class:** Declared outside of all functions; accessible throughout the file or translation unit.
-
-
 * **Local Class:** Declared inside a function block.
-
-
-* Cannot contain `static` data members.
-
-
-* All member functions must be defined inline within the class body.
-
-
-* Can access only local `static` variables or global variables, not regular automatic local variables from the enclosing function.
-
-
-
-
+  * Cannot contain `static` data members.
+  * All member functions must be defined inline within the class body.
+  * Can access only local `static` variables or global variables, not regular automatic local variables from the enclosing function.
 
 ```cpp
 void fun() {
@@ -445,29 +307,18 @@ void fun() {
     Local obj;
     obj.display();
 }
-
 ```
 
 ### 6. State, Identity, and Behaviour of an Object
 
 * **State:** The current values assigned to an object's data members.
-
-
 * **Identity:** The unique memory address occupied by the object, distinguishing it from all other instances.
-
-
 * **Behaviour:** The operations an object can perform, defined by its member functions.
-
-
 
 ### 7. Local Object vs. Global Object
 
 * **Global Object:** Instantiated outside any function; constructed before `main()` executes and destroyed when the program terminates.
-
-
 * **Local Object:** Instantiated on the stack inside a function or block; constructed when execution hits the definition and destroyed when leaving the scope.
-
-
 
 ```cpp
 class Demo {
@@ -476,18 +327,17 @@ public:
     ~Demo() { std::cout << "Destructor called" << std::endl; }
 };
 
-Demo globalObj; // Global object (lives for program duration)[cite: 1]
+Demo globalObj; // Global object (lives for program duration)
 
 int main() {
-    Demo localObj; // Local object (lives for main scope)[cite: 1]
+    Demo localObj; // Local object (lives for main scope)
     return 0;
 }
-
 ```
 
 ### 8. Memory Layout of an Object in C++
 
-```
+```text
 +------------------------------------+
 | _vptr (if virtual functions exist) | 8 bytes (on 64-bit architecture)
 +------------------------------------+
@@ -497,7 +347,6 @@ int main() {
 +------------------------------------+
 | Padding Bytes (Memory Alignment)   |
 +------------------------------------+
-
 ```
 
 * **What Consumes Object Memory:** Only **non-static data members** and the virtual table pointer (`_vptr`, if the class contains virtual functions) occupy memory inside an instantiated object.
@@ -507,22 +356,13 @@ int main() {
 ### 9. Scope Resolution Operator (`::`)
 
 Used to:
-
 1. Access global variables hidden by local variables.
-
-
 2. Define member functions outside the class declaration.
-
-
 3. Access static members of a class.
-
-
 4. Resolve naming collisions in multiple inheritance.
 
-
-
 ```cpp
-int x = 10; // Global variable[cite: 1]
+int x = 10; // Global variable
 
 class Test {
     int x;
@@ -530,7 +370,7 @@ public:
     void setX(int x);
     void show() {
         std::cout << "Local x = " << x << std::endl;
-        std::cout << "Global x = " << ::x << std::endl; // Accesses global x[cite: 1]
+        std::cout << "Global x = " << ::x << std::endl; // Accesses global x
     }
 };
 
@@ -538,7 +378,6 @@ public:
 void Test::setX(int val) {
     x = val;
 }
-
 ```
 
 ### 10. Friend Functions and Friend Classes
@@ -551,13 +390,12 @@ private:
     int length;
 public:
     Box(int l) : length(l) {}
-    friend void printLength(Box b);     // Friend function declaration[cite: 1]
+    friend void printLength(Box b);     // Friend function declaration
 };
 
-void printLength(Box b) {               // Non-member definition[cite: 1]
-    std::cout << "Length = " << b.length << std::endl; // Direct access to private member[cite: 1]
+void printLength(Box b) {               // Non-member definition
+    std::cout << "Length = " << b.length << std::endl; // Direct access to private member
 }
-
 ```
 
 A **friend class** grants all of its member functions access to the private and protected internals of the granting class:
@@ -575,7 +413,6 @@ public:
         std::cout << "Key: " << s.secretKey << std::endl;
     }
 };
-
 ```
 
 #### Properties of Friendship
@@ -591,7 +428,7 @@ Instructs the compiler to substitute the function call site directly with the co
 ```cpp
 class Sample {
 public:
-    void display() { // Implicitly inline (defined inside class body)[cite: 1]
+    void display() { // Implicitly inline (defined inside class body)
         std::cout << "Hello" << std::endl;
     }
 };
@@ -600,17 +437,12 @@ public:
 inline int square(int x) {
     return x * x;
 }
-
 ```
 
 ### 12. Constructors and Destructors
 
 * **Constructor:** Special member function named after the class, invoked automatically upon object creation to initialize members. Has no return type.
-
-
 * **Destructor:** Member function named after the class preceded by `~`, invoked automatically when an object leaves its scope to release allocated resources. Takes no parameters and returns nothing.
-
-
 
 ```cpp
 class Student {
@@ -628,7 +460,6 @@ public:
         std::cout << "Destructor called" << std::endl;
     }
 };
-
 ```
 
 ### 13. Member Initialization Lists
@@ -645,7 +476,6 @@ public:
     Account(int id, int& ref, std::string name)
         : accountId(id), transactionRef(ref), owner(name) {} // Initialization list
 };
-
 ```
 
 #### Scenarios Where Initialization Lists are Mandatory
@@ -659,36 +489,25 @@ public:
 ### 14. Types of Constructors
 
 1. **Default Constructor:** Takes no arguments (or all arguments have defaults).
-
-
 2. **Parameterized Constructor:** Accepts explicit arguments to initialize state.
-
-
 3. **Copy Constructor:** Initializes an object from another existing object of the same class.
-
-
 4. **Dynamic Constructor:** Allocates heap memory at runtime within the constructor body using `new`.
-
-
 
 ```cpp
 class Point {
     int x, y;
 public:
-    Point() : x(0), y(0) {}                          // Default constructor[cite: 1]
-    Point(int a, int b) : x(a), y(b) {}              // Parameterized constructor[cite: 1]
-    Point(const Point& p) : x(p.x), y(p.y) {}        // Copy constructor[cite: 1]
+    Point() : x(0), y(0) {}                          // Default constructor
+    Point(int a, int b) : x(a), y(b) {}              // Parameterized constructor
+    Point(const Point& p) : x(p.x), y(p.y) {}        // Copy constructor
 };
-
 ```
 
 > **Important:** If you define any custom constructor, the compiler **no longer** supplies an implicit default constructor.
-> 
-> 
 
 ### 15. Shallow Copy vs. Deep Copy
 
-```
+```text
 Shallow Copy:
 Object A [ ptr ] ───┐
                     ▼
@@ -697,7 +516,6 @@ Object B [ ptr ] ───► [ Dynamic Heap Memory ] (Double-free crash on dest
 Deep Copy:
 Object A [ ptr ] ───► [ Dynamic Block A ]
 Object B [ ptr ] ───► [ Dynamic Block B ] (Independent heap allocations)
-
 ```
 
 #### Shallow Copy
@@ -714,29 +532,26 @@ Object B [ ptr ] ───► [ Dynamic Block B ] (Independent heap allocations)
 ### 16. Static Class Data and Static Member Functions
 
 * **Static Data Members:** Shared by all instances of a class; only a single copy exists in the program's static data segment. Must be defined outside the class declaration.
-
-
 * **Static Member Functions:** Can be called without instantiating an object (`ClassName::function()`). They have no implicit `this` pointer and can access **only** static data members or other static member functions.
 
 ```cpp
 class Counter {
 public:
-    static int count; // Declaration[cite: 1]
+    static int count; // Declaration
 
-    Counter() { count++; } // Increments shared count[cite: 1]
+    Counter() { count++; } // Increments shared count
 
     static int getCount() { // Static member function
         return count;
     }
 };
 
-int Counter::count = 0; // Definition and memory allocation (mandatory)[cite: 1]
+int Counter::count = 0; // Definition and memory allocation (mandatory)
 
 int main() {
     Counter c1, c2, c3;
     std::cout << Counter::getCount() << std::endl; // Output: 3
 }
-
 ```
 
 ### 17. Array of Objects
@@ -750,65 +565,52 @@ public:
 };
 
 int main() {
-    Student s[5]; // Allocates 5 Student objects sequentially[cite: 1]
+    Student s[5]; // Allocates 5 Student objects sequentially
     for (int i = 0; i < 5; i++)
         s[i].setRoll(i + 1);
 
     for (int i = 0; i < 5; i++)
         s[i].show();
 }
-
 ```
 
 ### 18. Constant Member Functions and Objects
 
 * **Constant Member Function:** Guaranteed not to modify any non-static data members of the calling object.
-
-
 * **Constant Object:** Cannot have its data members altered post-initialization and can **only** invoke `const` member functions.
-
-
 
 ```cpp
 class Demo {
     int x;
 public:
     Demo(int a) : x(a) {}
-    void show() const { // const member function[cite: 1]
+    void show() const { // const member function
         std::cout << x << std::endl;
-        // x = 10;      // Compile Error: cannot modify member[cite: 1]
+        // x = 10;      // Compile Error: cannot modify member
     }
 };
 
 int main() {
     const Demo d(5);
-    d.show();           // Allowed[cite: 1]
+    d.show();           // Allowed
 }
-
 ```
 
 ### 19. Memory Management Operators
 
 | Operator | Purpose |
-| --- | --- |
-| `new` | Dynamically allocates typed memory from the heap and calls the constructor
-
- |
-| `delete` | Invokes the destructor and frees single-object memory allocated by `new`<br> |
-| `new[]` | Dynamically allocates an array of objects on the heap
-
- |
-| `delete[]` | Invokes destructors for all elements and frees array memory
-
- |
+| :--- | :--- |
+| `new` | Dynamically allocates typed memory from the heap and calls the constructor |
+| `delete` | Invokes the destructor and frees single-object memory allocated by `new` |
+| `new[]` | Dynamically allocates an array of objects on the heap |
+| `delete[]` | Invokes destructors for all elements and frees array memory |
 
 ```cpp
-int* p = new int(10);        // Single integer allocation[cite: 1]
-int* arr = new int[5];       // Array allocation of 5 integers[cite: 1]
+int* p = new int(10);        // Single integer allocation
+int* arr = new int[5];       // Array allocation of 5 integers
 
-delete p;                    // Free single integer[cite: 1]
-delete[] arr;                // Free array (must use delete[])[cite: 1]
-
+delete p;                    // Free single integer
+delete[] arr;                // Free array (must use delete[])
 ```
 
 ---
@@ -821,28 +623,17 @@ The mechanism that allows a derived class to inherit members from a base class, 
 
 ```cpp
 class DerivedClass : access-specifier BaseClass {
-    // Derived members[cite: 1]
+    // Derived members
 };
-
 ```
 
 ### 2. Types of Inheritance
 
 1. **Single Inheritance:** One base class $\to$ One derived class.
-
-
 2. **Multiple Inheritance:** Multiple base classes $\to$ One derived class.
-
-
 3. **Multilevel Inheritance:** Base class $\to$ Intermediate class $\to$ Derived class.
-
-
 4. **Hierarchical Inheritance:** One base class $\to$ Multiple derived classes.
-
-
 5. **Hybrid Inheritance:** Combination of multiple inheritance types in a single class diagram.
-
-
 
 ```cpp
 // Single
@@ -858,34 +649,15 @@ class D : public B {};
 // Hierarchical
 class E : public A {};
 class F : public A {};
-
 ```
 
 ### 3. Access Modes – public, protected, and private
 
 | Base Member Visibility | `public` Inheritance | `protected` Inheritance | `private` Inheritance |
-| --- | --- | --- | --- |
-| **`public`** | `public` in derived
-
- | `protected` in derived
-
- | `private` in derived
-
- |
-| **`protected`** | `protected` in derived
-
- | `protected` in derived
-
- | `private` in derived
-
- |
-| **`private`** | **Inaccessible** directly
-
- | **Inaccessible** directly
-
- | **Inaccessible** directly
-
- |
+| :--- | :--- | :--- | :--- |
+| **`public`** | `public` in derived | `protected` in derived | `private` in derived |
+| **`protected`** | `protected` in derived | `protected` in derived | `private` in derived |
+| **`private`** | **Inaccessible** directly | **Inaccessible** directly | **Inaccessible** directly |
 
 ### 4. Construction and Destruction Order in Inheritance
 
@@ -897,23 +669,14 @@ class C : public B { public: C() { std::cout << "C "; } ~C() { std::cout << "~C 
 int main() {
     C obj; // Output: Construction: A B C | Destruction: ~C ~B ~A
 }
-
 ```
 
 * **Construction Order:**
-1. Virtual base classes (if any).
-2. Non-virtual base classes in the order listed in the inheritance declaration.
-
-
-3. Contained member objects in order of declaration inside the class.
-4. Derived constructor body runs last.
-
-
-
-
+  1. Virtual base classes (if any).
+  2. Non-virtual base classes in the order listed in the inheritance declaration.
+  3. Contained member objects in order of declaration inside the class.
+  4. Derived constructor body runs last.
 * **Destruction Order:** Executes in the exact reverse order of construction.
-
-
 
 ### 5. Ambiguity Resolution & The Diamond Problem
 
@@ -928,16 +691,15 @@ class C : public A, public B {};
 
 int main() {
     C obj;
-    // obj.show();       // Compile Error: Ambiguous[cite: 1]
-    obj.A::show();       // Resolved using scope resolution operator[cite: 1]
-    obj.B::show();       // Resolved[cite: 1]
+    // obj.show();       // Compile Error: Ambiguous
+    obj.A::show();       // Resolved using scope resolution operator
+    obj.B::show();       // Resolved
 }
-
 ```
 
 #### The Diamond Problem and Virtual Base Classes
 
-```
+```text
         ┌───────────┐
         │  Device   │ (int id)
         └─────┬─────┘
@@ -951,17 +713,15 @@ int main() {
          ┌─────────┐
          │ Copier  │ (Contains duplicate copies of 'Device' without virtual base!)
          └─────────┘
-
 ```
 
 When classes inherit through multiple intermediate parents sharing a common root ancestor, the derived child receives duplicate sub-objects of that root class.
 
 ```cpp
 class Device { public: int id; };
-class Printer : virtual public Device {}; // Virtual base class[cite: 1]
-class Scanner : virtual public Device {}; // Virtual base class[cite: 1]
-class Copier  : public Printer, public Scanner {}; // Only one shared instance of Device[cite: 1]
-
+class Printer : virtual public Device {}; // Virtual base class
+class Scanner : virtual public Device {}; // Virtual base class
+class Copier  : public Printer, public Scanner {}; // Only one shared instance of Device
 ```
 
 * **Underlying Mechanics:** The compiler inserts a **Virtual Base Pointer (`vbptr`)** into derived objects referencing a **Virtual Base Table (`vbtable`)**, which stores byte offsets to locate the single shared base instance in memory.
@@ -976,17 +736,15 @@ class Derived : public Base { public: int d = 2; };
 
 Derived der;
 Base base = der; // Object Slicing Occurs!
-
 ```
 
-```
+```text
 [ Derived Object Memory ]            [ Base Object Memory ]
 +-----------------------+            +--------------------+
 | Base members (b = 1)  | ──Copy───► | Base members (b=1) |
 +-----------------------+            +--------------------+
 | Derived members (d=2) | (Sliced off and discarded!)
 +-----------------------+
-
 ```
 
 * The base class copy constructor only copies base members.
@@ -1005,9 +763,8 @@ public:
 
 class Derived : public Base {
 public:
-    void show() { std::cout << "Derived class" << std::endl; } // Method Override[cite: 1]
+    void show() { std::cout << "Derived class" << std::endl; } // Method Override
 };
-
 ```
 
 ### 8. Constructors in Derived Classes
@@ -1020,11 +777,10 @@ public:
 
 class Derived : public Base {
 public:
-    Derived(int x, int y) : Base(x) { // Explicitly invokes Base parameterized constructor[cite: 1]
+    Derived(int x, int y) : Base(x) { // Explicitly invokes Base parameterized constructor
         std::cout << "Derived: " << y << std::endl;
     }
 };
-
 ```
 
 ### 9. Abstract Classes and Pure Virtual Functions
@@ -1034,7 +790,7 @@ An **abstract class** is designed to serve strictly as an interface and cannot b
 ```cpp
 class Shape {
 public:
-    virtual void draw() = 0; // Pure virtual function makes Shape abstract[cite: 1]
+    virtual void draw() = 0; // Pure virtual function makes Shape abstract
 };
 
 class Circle : public Shape {
@@ -1043,26 +799,18 @@ public:
         std::cout << "Drawing Circle" << std::endl;
     }
 };
-
 ```
 
 ### 10. Aggregation, Composition, and UML Class Hierarchies
 
-```
+```text
 Dependency ───► Association ───► Aggregation ───► Composition ───► Generalization
 (Weakest)                                                        (Strongest)
-
 ```
 
 * **Generalization (Inheritance):** An "is-a" relationship (e.g., `Dog` *is-an* `Animal`).
-
-
 * **Composition:** Strong "has-a" relationship where the child component's lifecycle is bound to the parent (e.g., a `Car` *owns an* `Engine`; if the car is destroyed, the engine is destroyed).
-
-
 * **Aggregation:** Weak "has-a" relationship where the child component can exist independently of the container (e.g., a `Department` *has a* `Professor`).
-
-
 * **Association:** Peer "uses-a" relationship between independent objects (e.g., a `Doctor` *attends to a* `Patient`).
 * **Dependency:** A transient usage relationship, such as an object passed as a temporary parameter to a single function.
 
@@ -1074,11 +822,10 @@ public:
 };
 
 class Car {
-    Engine eng; // Composition: Car owns Engine instance directly[cite: 1]
+    Engine eng; // Composition: Car owns Engine instance directly
 public:
     void drive() { eng.start(); }
 };
-
 ```
 
 ### 11. Nesting of Classes
@@ -1098,7 +845,6 @@ public:
         obj.display();
     }
 };
-
 ```
 
 ---
@@ -1112,17 +858,9 @@ Polymorphism allows an interface to execute different underlying logic depending
 ### 2. Compile-Time vs. Runtime Polymorphism
 
 | Attribute | Compile-Time Polymorphism | Runtime Polymorphism |
-| --- | --- | --- |
-| **Resolution Time** | Resolved by compiler during compilation
-
- | Resolved dynamically at runtime
-
- |
-| **Mechanism** | Function Overloading, Operator Overloading
-
- | Virtual Functions, Pointers/References
-
- |
+| :--- | :--- | :--- |
+| **Resolution Time** | Resolved by compiler during compilation | Resolved dynamically at runtime |
+| **Mechanism** | Function Overloading, Operator Overloading | Virtual Functions, Pointers/References |
 | **Execution Speed** | Faster (no indirect lookup overhead) | Slightly slower (due to `vtable` pointer traversal) |
 | **Flexibility** | Static binding | Highly extensible, dynamic binding |
 
@@ -1137,7 +875,6 @@ public:
     void print(double d)      { std::cout << "Double: " << d << std::endl; }
     void print(std::string s) { std::cout << "String: " << s << std::endl; }
 };
-
 ```
 
 ### 4. Operator Overloading
@@ -1165,7 +902,6 @@ public:
         return temp;
     }
 };
-
 ```
 
 #### Binary Operator Overloading
@@ -1180,31 +916,20 @@ public:
         return Complex(real + c.real, imag + c.imag);
     }
 };
-
 ```
 
 #### Rules and Restrictions of Operator Overloading
 
 * **Operators that CANNOT be overloaded:**
-1. Scope resolution: `::`
-
-2. Member selection: `.`
-
-3. Pointer-to-member: `.*`
-
-4. Ternary conditional: `?:`
-
-5. `sizeof`
-6. `typeid`
-
-
+  1. Scope resolution: `::`
+  2. Member selection: `.`
+  3. Pointer-to-member: `.*`
+  4. Ternary conditional: `?:`
+  5. `sizeof`
+  6. `typeid`
 * **Inviolable Semantics:** You cannot create brand-new operator symbols, modify precedence rules, or alter operand arity (unary remains unary, binary remains binary).
 * **Type Requirement:** At least one argument must be a user-defined type.
-
-
 * **Mandatory Member Operators:** The assignment (`=`), function call (`()`), subscript (`[]`), and class member access (`->`) operators **must** be implemented as member functions, never as external friend functions.
-
-
 
 ### 5. Pointers to Objects
 
@@ -1217,36 +942,29 @@ public:
 int main() {
     Student s;
     Student* ptr = &s;
-    ptr->show(); // Arrow operator used to dereference and call member[cite: 1]
+    ptr->show(); // Arrow operator used to dereference and call member
 }
-
 ```
 
 ### 6. The `this` Pointer
 
 An implicit pointer passed to non-static member functions pointing to the object that invoked the function.
-
 * Type inside class `T`: `T* const this`.
-
-
 * Used to differentiate shadowed member variables from parameters and return reference to calling object for method chaining.
-
-
 
 ```cpp
 class Test {
     int x;
 public:
     void setX(int x) {
-        this->x = x; // Disambiguates member x from parameter x[cite: 1]
+        this->x = x; // Disambiguates member x from parameter x
     }
 
     Test& chainSet(int x) {
         this->x = x;
-        return *this; // Enables method cascading[cite: 1]
+        return *this; // Enables method cascading
     }
 };
-
 ```
 
 ### 7. Virtual Functions & Dynamic Binding
@@ -1266,24 +984,22 @@ public:
 
 int main() {
     Base* ptr = new Derived();
-    ptr->show(); // Dynamically binds and executes Derived::show()[cite: 1]
+    ptr->show(); // Dynamically binds and executes Derived::show()
     delete ptr;
 }
-
 ```
 
 ### 8. Internal Mechanism: `vtable` and `vptr`
 
 Dynamic dispatch is coordinated by data structures managed by the compiler:
 
-```
+```text
     Object Instance (Memory)                         Virtual Table (vtable)
 +-------------------------------+                   +------------------------+
 | _vptr (Hidden VPTR Pointer)   | ─────────────────►| &Derived::draw()       |
 +-------------------------------+                   +------------------------+
 | int data_field                |                   | &Derived::render()     |
 +-------------------------------+                   +------------------------+
-
 ```
 
 1. **Virtual Table (`vtable`):** A static array of function pointers created once per polymorphic class during compilation and stored in read-only memory.
@@ -1312,7 +1028,6 @@ int main() {
     Base* ptr = new Derived();
     delete ptr; // Safely executes ~Derived() followed by ~Base()
 }
-
 ```
 
 * **Hazard of Non-Virtual Destructors:** If a base class destructor is non-virtual, calling `delete` on a `Base*` pointing to a `Derived` instance uses static binding and invokes only `~Base()`. The derived cleanup is skipped, causing memory leaks.
@@ -1331,25 +1046,23 @@ The `std::string` class manages dynamic character buffers with built-in memory m
 
 std::string s1 = "Object";
 std::string s2 = "Oriented";
-s1 += " " + s2;                       // Concatenation: "Object Oriented"[cite: 1]
+s1 += " " + s2;                            // Concatenation: "Object Oriented"
 
-std::cout << s1.length() << std::endl;     // Length check[cite: 1]
-std::cout << s1.substr(0, 6) << std::endl; // Substring extraction: "Object"[cite: 1]
-size_t pos = s1.find("Oriented");          // Search position[cite: 1]
-s1.replace(pos, 8, "Design");              // Replace substring[cite: 1]
-
+std::cout << s1.length() << std::endl;     // Length check
+std::cout << s1.substr(0, 6) << std::endl; // Substring extraction: "Object"
+size_t pos = s1.find("Oriented");          // Search position
+s1.replace(pos, 8, "Design");              // Replace substring
 ```
 
 ### 2. Streams and File Handling
 
 **C++ Stream Class Inheritance Hierarchy:**
 
-```
+```text
 ios
- ├── istream  → cin, ifstream[cite: 1]
- ├── ostream  → cout, ofstream[cite: 1]
- └── iostream → fstream[cite: 1]
-
+ ├── istream  → cin, ifstream
+ ├── ostream  → cout, ofstream
+ └── iostream → fstream
 ```
 
 ```cpp
@@ -1370,31 +1083,19 @@ int main() {
     }
     inFile.close();
 }
-
 ```
 
 **File Open Modes:**
-
 * `std::ios::in` – Open for reading
-
-
 * `std::ios::out` – Open for writing (truncates existing contents)
-
-
 * `std::ios::app` – Open for appending
-
-
 * `std::ios::binary` – Open in binary mode
-
-
 * `std::ios::ate` – Seek to the end of the file immediately after opening
-
-
 
 ### 3. Stream State Flags and Error Queries
 
 | State Bit Flag | Condition Indicated | Diagnostic Query Method |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | `ios::goodbit` | Operational success; no error flags set | `stream.good()` |
 | `ios::eofbit` | End of stream encountered | `stream.eof()` |
 | `ios::failbit` | Logical formatting or extraction error (recoverable) | `stream.fail()` |
@@ -1410,33 +1111,18 @@ int main() {
 ```cpp
 // Seeking reference positions:
 // ios::beg (from start), ios::cur (from current position), ios::end (from end)
-file.seekg(10, std::ios::beg); // Move get pointer to the 10th byte from start
+file.seekg(10, std::ios::beg);     // Move get pointer to the 10th byte from start
 std::streampos pos = file.tellg(); // Return current byte index of get pointer
-
 ```
 
 ### 5. Formatted and Unformatted I/O
 
 * **Unformatted I/O:** Transfers raw bytes directly without parsing (`cin.get()`, `cin.getline()`, `cout.put()`, `cout.write()`).
-
-
 * **Formatted I/O:** Uses stream manipulators from `<iomanip>` to format presentation:
-
-
-* `std::setw(int n)`: Sets character display field width.
-
-
-* `std::setprecision(int n)`: Configures floating-point output precision.
-
-
-* `std::fixed`: Enforces fixed-point decimal notation.
-
-
-* `std::hex`, `std::dec`: Controls base numbering output.
-
-
-
-
+  * `std::setw(int n)`: Sets character display field width.
+  * `std::setprecision(int n)`: Configures floating-point output precision.
+  * `std::fixed`: Enforces fixed-point decimal notation.
+  * `std::hex`, `std::dec`: Controls base numbering output.
 
 ### 6. Exception Handling
 
@@ -1446,15 +1132,14 @@ Encapsulates runtime error handling within structured blocks:
 try {
     int age = -5;
     if (age < 0)
-        throw "Age cannot be negative"; // Throwing an exception[cite: 1]
+        throw "Age cannot be negative"; // Throwing an exception
 }
-catch (const char* msg) {               // Catching specific exception type[cite: 1]
+catch (const char* msg) {               // Catching specific exception type
     std::cout << "Error: " << msg << std::endl;
 }
-catch (...) {                           // Catch-all handler[cite: 1]
+catch (...) {                           // Catch-all handler
     std::cout << "Default catch-all handler executed" << std::endl;
 }
-
 ```
 
 ### 7. Stack Unwinding and RAII
@@ -1464,7 +1149,7 @@ catch (...) {                           // Catch-all handler[cite: 1]
 
 ### 8. Standard Exception Class Hierarchy
 
-```
+```text
                     std::exception
                           │
        ┌──────────────────┴──────────────────┐
@@ -1474,7 +1159,6 @@ catch (...) {                           // Catch-all handler[cite: 1]
    ├── std::out_of_range                 ├── std::underflow_error
    ├── std::length_error                 └── std::range_error
    └── std::domain_error
-
 ```
 
 * **`std::logic_error`:** Faults caused by program logic errors that can theoretically be avoided through validation checks (e.g., out-of-range bounds access).
@@ -1489,7 +1173,6 @@ template <typename T>
 T maximum(T a, T b) {
     return (a > b) ? a : b;
 }
-
 ```
 
 **Class Template:**
@@ -1505,15 +1188,14 @@ public:
     T pop() { return arr[top--]; }
 };
 
-Stack<int> intStack;       // Instantiates integer stack[cite: 1]
-Stack<std::string> stringStack; // Instantiates string stack[cite: 1]
-
+Stack<int> intStack;            // Instantiates integer stack
+Stack<std::string> stringStack; // Instantiates string stack
 ```
 
 ### 10. Templates vs. C Preprocessor Macros
 
 | Criterion | C++ Templates | Preprocessor Macros (`#define`) |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | **Processing Stage** | Evaluated by the **compiler** | Expanded by the **preprocessor** |
 | **Type Safety** | Fully type-checked at compile time | No type-checking; simple text substitution |
 | **Scope Sensitivity** | Respects class, function, and namespace scopes | Completely ignores scope boundaries |
@@ -1538,47 +1220,27 @@ class Formatter<bool> {
 public:
     void print(bool val) { std::cout << (val ? "True" : "False") << std::endl; }
 };
-
 ```
 
 ### 12. Standard Template Library (STL) Architecture
 
 **The Pillars of STL:**
-
 1. **Containers:** Data structures that hold collections of objects.
-
-
 2. **Algorithms:** Built-in operations for sorting, searching, and transforming container data.
-
-
 3. **Iterators:** Object-oriented abstractions for pointers used to step through containers.
-
-
 4. **Functors (Function Objects):** Objects that can be invoked like functions by overloading `operator()`.
-
-
 5. **Allocators:** Abstract memory managers that handle dynamic allocation for containers.
 
-
-
 | Container Type | Containers | Characteristics |
-| --- | --- | --- |
-| **Sequence** | `std::vector`, `std::deque`, `std::list`, `std::array`<br> | Linear, sequential element ordering
-
- |
-| **Associative** | `std::set`, `std::map`, `std::multiset`, `std::multimap`<br> | Key-sorted tree structures (usually Red-Black trees)
-
- |
-| **Unordered** | `std::unordered_set`, `std::unordered_map`<br> | Key-hashed hash table structures
-
- |
-| **Adapters** | `std::stack`, `std::queue`, `std::priority_queue`<br> | Constrained container wrappers
-
- |
+| :--- | :--- | :--- |
+| **Sequence** | `std::vector`, `std::deque`, `std::list`, `std::array` | Linear, sequential element ordering |
+| **Associative** | `std::set`, `std::map`, `std::multiset`, `std::multimap` | Key-sorted tree structures (usually Red-Black trees) |
+| **Unordered** | `std::unordered_set`, `std::unordered_map` | Key-hashed hash table structures |
+| **Adapters** | `std::stack`, `std::queue`, `std::priority_queue` | Constrained container wrappers |
 
 ### 13. STL Iterator Hierarchy & Invalidation Rules
 
-```
+```text
 Random Access Iterator (std::vector, std::deque, raw pointer)
          ▲
          │ (supports +n, -n, [], <, >)
@@ -1589,7 +1251,6 @@ Bidirectional Iterator (std::list, std::set, std::map)
          ▲
          │ (supports ++)
    Input Iterator / Output Iterator
-
 ```
 
 * **Iterator Invalidation:** Modifying a container (such as calling `push_back()` on a `std::vector` that exceeds its current capacity) triggers dynamic reallocation, invalidating existing pointers, references, and iterators to its elements.
@@ -1598,41 +1259,24 @@ Bidirectional Iterator (std::list, std::set, std::map)
 
 ## Quick Revision Checklist
 
-* [ ] Differences between C and C++ & POP vs OOP
+- [ ] Differences between C and C++ & POP vs OOP
+- [ ] Object-Based vs Object-Oriented languages
+- [ ] Four pillars: Abstraction, Encapsulation, Inheritance, Polymorphism
+- [ ] Memory layout of an object, empty class size (1 byte), and data alignment
+- [ ] Member initialization lists (required scenarios)
+- [ ] Shallow copy vs Deep copy mechanics
+- [ ] Static data members, static member functions, and friend declarations
+- [ ] Constructors (default, parameterized, copy, dynamic) and destructors
+- [ ] Inheritance access modes (`public`, `protected`, `private`)
+- [ ] Construction and destruction order across inheritance hierarchies
+- [ ] Diamond problem, virtual base classes, `vbptr`, and `vbtable`
+- [ ] Object slicing causes and prevention
+- [ ] Virtual functions, `vtable`, `_vptr`, and dynamic binding
+- [ ] Virtual destructors and memory leak prevention
+- [ ] Operator overloading rules and non-overloadable operators
+- [ ] Exception handling: `try`, `catch`, `throw`, and stack unwinding
+- [ ] Standard exception class hierarchy (`logic_error` vs `runtime_error`)
+- [ ] File handling streams, open modes, and file pointers (`seekg`/`seekp`)
+- [ ] Templates vs macros, and template specialization
+- [ ] STL containers, algorithms, iterator category hierarchy, and iterator invalidation
 
-
-* [ ] Object-Based vs Object-Oriented languages
-* [ ] Four pillars: Abstraction, Encapsulation, Inheritance, Polymorphism
-
-
-* [ ] Memory layout of an object, empty class size (1 byte), and data alignment
-* [ ] Member initialization lists (required scenarios)
-* [ ] Shallow copy vs Deep copy mechanics
-* [ ] Static data members, static member functions, and friend declarations
-
-
-* [ ] Constructors (default, parameterized, copy, dynamic) and destructors
-
-
-* [ ] Inheritance access modes (`public`, `protected`, `private`)
-
-
-* [ ] Construction and destruction order across inheritance hierarchies
-* [ ] Diamond problem, virtual base classes, `vbptr`, and `vbtable`
-* [ ] Object slicing causes and prevention
-* [ ] Virtual functions, `vtable`, `_vptr`, and dynamic binding
-
-
-* [ ] Virtual destructors and memory leak prevention
-* [ ] Operator overloading rules and non-overloadable operators
-
-
-* [ ] Exception handling: `try`, `catch`, `throw`, and stack unwinding
-
-
-* [ ] Standard exception class hierarchy (`logic_error` vs `runtime_error`)
-* [ ] File handling streams, open modes, and file pointers (`seekg`/`seekp`)
-
-
-* [ ] Templates vs macros, and template specialization
-* [ ] STL containers, algorithms, iterator category hierarchy, and iterator invalidation
