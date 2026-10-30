@@ -16,13 +16,6 @@ I am deeply interested in operating systems, kernel architecture, and bridging t
   <a href="https://www.paypal.me/KARTAVYASHUKLA"><img src="https://img.shields.io/badge/Support%20via-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Support via PayPal"></a>
 </p>
 
-<!-- GitAds Sponsored -->
-<div align="center">
-  <a href="https://gitads.dev/v1/ad-track?source=novfensec/novfensec@github">
-    <img src="https://gitads.dev/v1/ad-serve?source=novfensec/novfensec@github" alt="Sponsored by GitAds">
-  </a>
-</div>
-
 
 ## Notable Engineering Projects
 
